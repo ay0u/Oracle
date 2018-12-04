@@ -211,11 +211,11 @@ from
 INNER JOIN ORDER_DETAILS ON (orders.order_id=order_details.order_id);
 ```
 ### 联合查询结果：
-![]![](../37.png)
+![](./37.png)
 
 
 ### 执行计划
-![]![](./38.png)
+![](./38.png)
 ### 执行计划结论
 最先执行的是TABLE ACCESS FULL，意思为对order_details表进行全表扫描。
 
